@@ -12,6 +12,24 @@ const styles = StyleSheet.create({
     width: 200,
     borderColor: 'black',
     borderWidth: 1
+  },
+  content: {
+    flex: 8,
+    backgroundColor: 'skyblue'
+  }
+  footer: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-around'
+  },
+  footerButton: {
+    backgroundColor: 'black',
+    height: 20,
+    width: 20,
+    color: 'white',
+    borderWidth: 2,
+    borderColor: 'black'
   }
 });
 

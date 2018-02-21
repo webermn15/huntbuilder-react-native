@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, TextInput, View, Button } from 'react-native';
-import styles from '../styles';
+import styles from './styles';
 
 export default class Register extends Component {
   constructor() {
@@ -44,7 +44,9 @@ export default class Register extends Component {
           title={'Register'}
           onPress={this.handlePress}
         />
-        <Text
+        <Button
+          title={'Have an account? Log in here'}
+        />
       </View>
     );
   }

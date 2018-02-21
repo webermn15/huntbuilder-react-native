@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { StyleSheet, TextInput, View, Button } from 'react-native';
 import Login from './Login';
+import Register from './Register';
+import Main from './Main';
 import styles from './styles';
 
 export default class App extends Component<{}> {
@@ -20,8 +22,7 @@ export default class App extends Component<{}> {
 
   render() {
     return (
-      <Login />
+      <Main /> 
     );
   }
 }
-
