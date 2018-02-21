@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, TextInput, Text, View, Button } from 'react-native';
+import { StyleSheet, TextInput, Text, View, Button, Alert } from 'react-native';
 import Footer from './Footer';
 import Content from './Content';
 import styles from './styles';
@@ -13,7 +13,8 @@ export default class Main extends Component<{}> {
   }
 
   handleNav = (e) => {
-    console.log(e.currentTarget.innerText)
+    console.log('i hate xcode')
+    Alert.alert('pressed a button')
   }
 
   render() {

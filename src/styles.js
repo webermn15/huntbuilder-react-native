@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
   content: {
     flex: 8,
     backgroundColor: 'skyblue'
-  }
+  },
   footer: {
     flex: 1,
     flexDirection: 'row',
@@ -25,11 +25,9 @@ const styles = StyleSheet.create({
   },
   footerButton: {
     backgroundColor: 'black',
-    height: 20,
-    width: 20,
-    color: 'white',
     borderWidth: 2,
-    borderColor: 'black'
+    width: 120,
+    height: 50
   }
 });
 

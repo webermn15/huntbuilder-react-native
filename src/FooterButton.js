@@ -7,11 +7,14 @@ export default class FooterButton extends Component<{}> {
 
   render() {
     return (
-      <Button 
-      	style={styles.footerButton}
-      	title={this.props.buttonText}
-      	onPress={this.props.handleNav}
-      />
+    	<View style={styles.footerButton}>
+	      <Button 
+	      	style={styles.footerButton}
+	      	title={this.props.buttonText}
+	      	onPress={this.props.handleNav}
+	      	color={'white'}
+	      />
+	    </View>
     );
   }
 }
