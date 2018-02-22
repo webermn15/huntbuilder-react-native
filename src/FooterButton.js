@@ -12,7 +12,7 @@ export default class FooterButton extends Component<{}> {
 	      	style={styles.footerButton}
 	      	title={this.props.buttonText}
 	      	onPress={this.props.handleNav}
-	      	color={'white'}
+	      	color={'black'}
 	      />
 	    </View>
     );

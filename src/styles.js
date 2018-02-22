@@ -24,10 +24,28 @@ const styles = StyleSheet.create({
     justifyContent: 'space-around'
   },
   footerButton: {
-    backgroundColor: 'black',
-    borderWidth: 2,
-    width: 120,
-    height: 50
+    backgroundColor: 'pink',
+    borderWidth: 3,
+    borderColor: 'black',
+    width: 120
+  },
+  huntListContainer: {
+    backgroundColor: 'purple',
+    flex: 5,
+    alignItems: 'center'
+  },
+  huntList: {
+    padding: 10,
+    backgroundColor: 'lightseagreen',
+    height: 80,
+    width: 396,
+    marginTop: 10
+  },
+  searchContainer: {
+    backgroundColor: 'pink',
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'flex-end'
   }
 });
 

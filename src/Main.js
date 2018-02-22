@@ -17,10 +17,15 @@ export default class Main extends Component<{}> {
     Alert.alert('pressed a button')
   }
 
+  handleSearch = (e) => {
+    Alert.alert('pressed search button')
+    // <Content handleSearch={this.handleSearch}/>
+  }
+
   render() {
     return (
       <View style={{flex: 1}}>
-        <Content />
+        
         <Footer handleNav={this.handleNav}/>
       </View>
     );
