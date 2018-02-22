@@ -17,6 +17,10 @@ const styles = StyleSheet.create({
     flex: 8,
     backgroundColor: 'skyblue'
   },
+  header: {
+    height: 20,
+    backgroundColor: 'pink'
+  },
   footer: {
     flex: 1,
     flexDirection: 'row',
@@ -46,6 +50,24 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'flex-end'
+  },
+  userProfile: {
+    flex: 8,
+    backgroundColor: 'skyblue'
+  },
+  userInfo: {
+    flex: 2,
+    justifyContent: 'space-between',
+    backgroundColor: 'peachpuff'
+  },
+  huntDetail: {
+    flex: 8,
+    backgroundColor: 'lightgrey',
+    justifyContent: 'flex-start'
+  },
+  huntCreate: {
+    flex: 8,
+    justifyContent: 'space-around'
   }
 });
 

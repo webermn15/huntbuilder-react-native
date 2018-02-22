@@ -9,7 +9,6 @@ export default class Content extends Component<{}> {
     super()
 
     this.state = {
-      huntNames: [{key: 'The Loop Hunt'}, {key: 'Montreal Hunt'}]
     }
   }
 
@@ -20,7 +19,7 @@ export default class Content extends Component<{}> {
           handleSearch={this.props.handleSearch}
         />
         <HuntList 
-          huntData={this.state.huntNames}
+          huntData={this.props.huntNames}
         />
       </View>
     );
