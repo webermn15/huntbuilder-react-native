@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-around'
+
   },
   footerButton: {
     backgroundColor: 'pink',
@@ -67,7 +68,10 @@ const styles = StyleSheet.create({
   },
   huntCreate: {
     flex: 8,
-    justifyContent: 'space-around'
+    justifyContent: 'space-between'
+  },
+  mapContainer: {
+    flex: 1
   }
 });
 
