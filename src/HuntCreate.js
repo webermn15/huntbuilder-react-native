@@ -3,12 +3,9 @@ import { StyleSheet, TextInput, Text, View, Button } from 'react-native';
 import styles from './styles';
 import MapboxGL from '@mapbox/react-native-mapbox-gl';
 
-
+MapboxGL.setAccessToken('');
 
 export default class HuntCreate extends Component<{}> {
-  componentWillMount(){
-    MapboxGL.setAccessToken('pk.eyJ1Ijoid2ViZXJtbjE1IiwiYSI6ImNqZHl3N3k2eDBhNXkyeG1vdzhtanRwczMifQ.5q5Lm4AZSLn2DBNi5s2izQ');
-  }
   render() {
     return (
       <View style={styles.huntCreate}>
