@@ -11,7 +11,7 @@
     "negotiator": "^0.6.1",
     "randomatic": "^3.1.0",
     "react": "16.2.0",
-    "react-native": "^0.57.2"
+    "react-native": "^0.57.4"
   },
   "devDependencies": {
     "babel-jest": "22.4.0",
